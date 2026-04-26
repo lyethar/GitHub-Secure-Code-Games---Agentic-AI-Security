@@ -1,0 +1,8 @@
+# Python dependencies for Seasons 1 and 2.
+# Installed automatically by the Codespace postCreateCommand in .devcontainer/devcontainer.json.
+pyOpenSSL
+bcrypt
+flask
+flask-testing
+blinker
+requests
