@@ -1,6 +1,5 @@
 # Agentic AI Security: Season 4 CTF Vulnerability Report
 
-**Source repository:** [`lyethar/GitHub-Secure-Code-Games---Agentic-AI-Security`](https://github.com/lyethar/GitHub-Secure-Code-Games---Agentic-AI-Security)
 **Scope:** Full technical writeup of all five Season 4 levels of GitHub's Secure Code Game (the deliberately vulnerable agentic assistant **ProdBot**), cross-referenced with latest findings on **Agentic AI Systems Security** and **AI Supply Chain Security**.
 ---
 
