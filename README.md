@@ -1,12 +1,12 @@
 # Agentic AI Security: Season 4 CTF Vulnerability Report
 
 **Source repository:** [`lyethar/GitHub-Secure-Code-Games---Agentic-AI-Security`](https://github.com/lyethar/GitHub-Secure-Code-Games---Agentic-AI-Security)
-**Scope:** Full technical writeup of all five Season 4 levels of GitHub's Secure Code Game (the deliberately vulnerable agentic assistant **ProdBot**), cross-referenced with HiddenLayer's findings on **Agentic AI Systems Security** and **AI Supply Chain Security**.
+**Scope:** Full technical writeup of all five Season 4 levels of GitHub's Secure Code Game (the deliberately vulnerable agentic assistant **ProdBot**), cross-referenced with latest findings on **Agentic AI Systems Security** and **AI Supply Chain Security**.
 ---
 
 ## Executive Summary
 
-Season 4 of GitHub's Secure Code Game places the player inside **ProdBot**, a synthetic agentic coding assistant modelled on real-world tooling (OpenClaw, GitHub Copilot CLI). Across five progressively richer levels, ProdBot evolves from a sandboxed shell wrapper into a multi-agent platform with web browsing, MCP tool integrations, org-approved skills, persistent memory, and agent-to-agent orchestration. **Each new capability layer introduces a real, well-documented Agentic AI security flaw**, and each level's solution maps cleanly onto an attack pattern that HiddenLayer's 2026 report identifies as already in-the-wild against production AI systems.
+Season 4 of GitHub's Secure Code Game places the player inside **ProdBot**, a synthetic agentic coding assistant modelled on real-world tooling (OpenClaw, GitHub Copilot CLI). Across five progressively richer levels, ProdBot evolves from a sandboxed shell wrapper into a multi-agent platform with web browsing, MCP tool integrations, org-approved skills, persistent memory, and agent-to-agent orchestration. **Each new capability layer introduces a real, well-documented Agentic AI security flaw**.
 
 | # | Level Theme | Vulnerability Class | OWASP / Industry Mapping | HiddenLayer 2026 Anchor | Flag |
 |---|---|---|---|---|---|
