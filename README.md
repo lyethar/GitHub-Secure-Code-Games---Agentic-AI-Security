@@ -8,7 +8,7 @@
 
 Season 4 of GitHub's Secure Code Game places the player inside **ProdBot**, a synthetic agentic coding assistant modelled on real-world tooling (OpenClaw, GitHub Copilot CLI). Across five progressively richer levels, ProdBot evolves from a sandboxed shell wrapper into a multi-agent platform with web browsing, MCP tool integrations, org-approved skills, persistent memory, and agent-to-agent orchestration. **Each new capability layer introduces a real, well-documented Agentic AI security flaw**.
 
-| # | Level Theme | Vulnerability Class | OWASP / Industry Mapping | HiddenLayer 2026 Anchor | Flag |
+| # | Level Theme | Vulnerability Class | OWASP / Industry Mapping | Anchor | Flag |
 |---|---|---|---|---|---|
 | 1 | The Sandbox | Path-Traversal Sandbox Escape via Denylist Bypass | LLM06 Insecure Output Handling / CWE-22 / OWASP Agentic T6 *Tool Misuse* | "OpenClaw" exec/web_fetch unsandboxed; --dangerously-skip-permissions abuse | `BYPA55ED` |
 | 2 | Web Access | Indirect Prompt Injection via Web Content | LLM01 Prompt Injection / OWASP Agentic T1 *Goal Hijacking* | "Indirect Prompt Injection of Agents"; CopyPasta License Attack | `INDIR3CT` |
